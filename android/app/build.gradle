@@ -34,10 +34,10 @@ react {
     // bundleConfig = file(../rn-cli.config.js)
     //
     //   The name of the generated asset file containing your JS bundle
-    // bundleAssetName = "ReactNativeComponentlication.android.bundle"
+    // bundleAssetName = "MyApplication.android.bundle"
     //
     //   The entry file for bundle generation. Default is 'index.android.js' or 'index.js'
-    // entryFile = file("../js/ReactNativeComponentlication.android.js")
+    // entryFile = file("../js/MyApplication.android.js")
     //
     //   A list of extra flags to pass to the 'bundle' commands.
     //   See https://github.com/react-native-community/cli/blob/main/docs/commands.md#bundle
@@ -77,9 +77,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace "com.ReactNativeComponent"
+    namespace "com.reactnativecomponent"
     defaultConfig {
-        applicationId "com.ReactNativeComponent"
+        applicationId "com.reactnativecomponent"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
